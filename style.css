@@ -1,0 +1,93 @@
+ * {
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+     width: 100%;
+     background-color: rgb(81, 174, 143);
+     padding: 20px;
+
+ }
+
+ .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%
+ }
+
+ #navigation {
+     background-color: rgb(98, 96, 96);
+     color: white;
+     display: flex;
+     padding: 10px 20px;
+     font-size: smaller;
+ }
+
+ a {
+     text-decoration: none;
+     padding: 5px;
+     color: white;
+ }
+
+ header h2,
+ header h6 {
+     color: white;
+     text-align: center;
+
+ }
+
+
+
+ container {
+     display: flex;
+     align-content: stretch;
+
+ }
+
+ summary {
+     display: flex;
+     width: 40%;
+     flex-direction: column;
+     padding: 20px;
+     background-color: lightgray;
+
+ }
+
+ main {
+     padding: 20px;
+     display: flex;
+     display: flex;
+     width: 60%;
+     flex-direction: column;
+     background-color: white;
+
+
+ }
+
+ summary img {
+     display: flex;
+     flex-direction: column;
+     background-color: grey;
+     margin: 10px auto;
+     min-height: 50px;
+
+ }
+
+ #myphoto {
+     height: 100px;
+ }
+
+ main div {
+     height: 400px;
+ }
+
+ main img {
+     display: flex;
+     flex-direction: column;
+     background-color: grey;
+     margin: 10px auto;
+     min-height: 100px;
+
+
+ }
